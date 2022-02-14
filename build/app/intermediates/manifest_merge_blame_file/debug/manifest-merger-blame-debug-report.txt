@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project1_204841q"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:41:1-57:11
+17
+18        <!-- If your app opens https URLs -->
+19        <intent>
+19-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:43:3-46:12
+20            <action android:name="android.intent.action.VIEW" />
+20-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:44:5-57
+20-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:44:13-54
+21
+22            <data android:scheme="https" />
+22-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:45:5-36
+22-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:45:11-33
+23        </intent>
+24        <!-- If your app makes calls -->
+25        <intent>
+25-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:48:3-51:12
+26            <action android:name="android.intent.action.DIAL" />
+26-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:49:5-57
+26-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:49:13-54
+27
+28            <data android:scheme="tel" />
+28-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:45:5-36
+28-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:45:11-33
+29        </intent>
+30        <!-- If your app emails -->
+31        <intent>
+31-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:53:3-56:12
+32            <action android:name="android.intent.action.SEND" />
+32-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:54:5-57
+32-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:54:13-54
+33
+34            <data android:mimeType="*/*" />
+34-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:45:5-36
+35        </intent>
+36    </queries>
+37
+38    <application
+38-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:3:4-40:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\Ronald\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:5:9-43
+42        android:label="project1_204841q" >
+42-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:4:9-41
+43        <activity
+43-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:6:9-34:20
+44            android:name="com.example.project1_204841q.MainActivity"
+44-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:7:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:10:13-163
+46            android:hardwareAccelerated="true"
+46-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:11:13-47
+47            android:launchMode="singleTop"
+47-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:8:13-43
+48            android:theme="@style/LaunchTheme"
+48-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:9:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:12:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:17:13-20:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:18:15-70
+59                android:resource="@style/NormalTheme" />
+59-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:19:15-52
+60            <!--
+61                 Displays an Android View that continues showing the launch screen
+62                 Drawable until Flutter paints its first frame, then this splash
+63                 screen fades out. A splash screen is useful to avoid any visual
+64                 gap between the end of Android's launch screen and the painting of
+65                 Flutter's first frame.
+66            -->
+67            <meta-data
+67-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:26:13-29:17
+68                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+68-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:27:15-79
+69                android:resource="@drawable/launch_background" />
+69-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:28:15-61
+70
+71            <intent-filter>
+71-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:30:13-33:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:31:17-68
+72-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:31:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:32:17-76
+74-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:32:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:37:9-39:33
+82            android:name="flutterEmbedding"
+82-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:38:13-44
+83            android:value="2" />
+83-->C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\android\app\src\main\AndroidManifest.xml:39:13-30
+84
+85        <activity
+85-->[:url_launcher_android] C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher_android] C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher_android] C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher_android] C:\Users\Ronald\Desktop\MAD\project1_204841q_ronald - Copy\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+89    </application>
+90
+91</manifest>

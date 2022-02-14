@@ -1,0 +1,4 @@
+#Mon Feb 14 11:38:19 SGT 2022
+base.0=C\:\\Users\\Ronald\\Desktop\\MAD\\project1_204841q_ronald - Copy\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
